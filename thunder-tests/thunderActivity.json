@@ -1,0 +1,135 @@
+[
+  {
+    "_id": "e670f1b6-6e28-4c65-bb58-66a74b1a4286",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://jop6c1ixi9.execute-api.us-east-1.amazonaws.com/prod/scrape-twitter",
+    "url": "https://jop6c1ixi9.execute-api.us-east-1.amazonaws.com/prod/scrape-twitter?file_name=output.xlsx&limit=10&query=imrankhan",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-05-01T11:13:59.506Z",
+    "modified": "2023-05-01T12:45:33.250Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "file_name",
+        "value": "output.xlsx",
+        "isPath": false
+      },
+      {
+        "name": "limit",
+        "value": "10",
+        "isPath": false
+      },
+      {
+        "name": "query",
+        "value": "imrankhan",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "dc547778-4fc1-4c13-a4f7-21e88ae7d828",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://jop6c1ixi9.execute-api.us-east-1.amazonaws.com/prod/competitive-analysis",
+    "url": "https://jop6c1ixi9.execute-api.us-east-1.amazonaws.com/prod/competitive-analysis",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-05-02T06:59:25.424Z",
+    "modified": "2023-05-02T06:59:25.424Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "7f881c8c-0949-45b7-b4ff-49926e12074f",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://jop6c1ixi9.execute-api.us-east-1.amazonaws.com/prod/competitive-analysis?foo=bar",
+    "url": "https://jop6c1ixi9.execute-api.us-east-1.amazonaws.com/prod/competitive-analysis?foo=bar",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-05-02T06:59:37.020Z",
+    "modified": "2023-05-02T07:19:32.803Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "foo",
+        "value": "bar",
+        "isPath": false
+      }
+    ],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "file1",
+          "value": "../../../web-scraping/output.xlsx"
+        },
+        {
+          "name": "file2",
+          "value": "../../../web-scraping/tweets.xlsx"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "d4609f85-9f08-4b2b-97d4-cea44d13b9c4",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://jop6c1ixi9.execute-api.us-east-1.amazonaws.com/prod/competitive-analysis?foo=bar",
+    "url": "https://jop6c1ixi9.execute-api.us-east-1.amazonaws.com/prod/competitive-analysis",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-05-02T07:26:21.509Z",
+    "modified": "2023-05-02T10:28:32.706Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "file1",
+          "value": "../../../web-scraping/FYP/Competitive analysis of tweet volume (2 files)/snscrape1.xlsx"
+        },
+        {
+          "name": "file2",
+          "value": "../../../web-scraping/FYP/Competitive analysis of tweet volume (2 files)/team USHA tweet extraction.xlsx"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "9bf8d553-f81b-4b78-bd09-fc92d9eae326",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://jop6c1ixi9.execute-api.us-east-1.amazonaws.com/prod/competitive-analysis",
+    "url": "https://jop6c1ixi9.execute-api.us-east-1.amazonaws.com/prod/hashtag-analysis",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-05-02T07:26:45.209Z",
+    "modified": "2023-05-02T19:25:34.342Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "",
+          "value": "../../../web-scraping/FYP/Competitive analysis of tweet volume (2 files)/snscrape1.xlsx"
+        }
+      ]
+    },
+    "tests": []
+  }
+]

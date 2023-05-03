@@ -1,0 +1,7 @@
+networkx
+arabic_reshaper
+python-bidi
+requests_toolbelt
+textblob
+pandas
+openpyxl
